@@ -1,0 +1,157 @@
+body{
+  font-family: 'Rozha One', serif;
+  transition: all 1s;
+}
+
+nav a {text-decoration: none;}
+
+nav ul {display: inline-flex;
+justify-content: flex-start;
+width: 25%;
+margin: 0;
+margin-left: 50px;
+margin-top: 30px;
+padding:0;
+list-style-type: none;}
+
+.hamburger,
+.close {display:none;}
+
+@media(max-width: 650px){
+  .hamburger, .close{
+    display: block;
+    font-size: 60pt;
+    font-family: 'Rozha One', serif;
+  }
+  nav ul {
+    position: fixed;
+    top:-100vh;
+  }
+  nav ul.open-nav {
+    margin:0;
+    background-color: #80BFB4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 200vw;
+    height: 200vh;
+    font-size: 30pt;}
+
+    nav ul a {
+    color: white;
+  }
+
+
+  }
+
+li a {text-decoration: none;
+display: block;
+color: black;}
+
+li {text-align: center;
+display: inline-block;
+margin: 0;
+width: 100px;}
+
+.logo {display: inline-flex;
+justify-content: center;
+padding-bottom: 30px;
+width: 20%;
+margin: 0 auto;
+text-align: center;
+text-decoration: none;
+color: black;
+font-size: 90px;}
+
+.logo-image {display: inline-flex;
+justify-content: center;
+align-items: center;
+padding}
+
+.logo-image img {
+width: 60px;
+height: 60px;
+padding-bottom: 25px;}
+
+header {
+/* display: inline-flex; */
+margin: 0 auto;
+width: 100%;
+height: 430px;
+justify-content: center;
+background-image: url("assets/boy.png");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+background-position: center;}
+
+h1 {display: inline-flex;
+font-size: 44pt;
+padding-top: 28px;
+color: white;
+width:100%;
+margin: 0 auto;
+text-align: center;
+justify-content: center;}
+
+h2 {Display: flex;
+  font-family: 'Rhozha one', serif;
+    font-size: 2em;
+    padding-left: 15%;
+    padding-top: 6%;
+}
+
+.copy {display: flex;
+    width: 45%;
+    padding-top: 6%;
+    padding-right: 15%;}
+
+button {
+justify-content: center;
+display: inline-flex;
+width: 250px;
+height: 70px;
+font-size: 20pt;
+font-family: 'Rozha One', serif;
+background: rgba(140, 125, 138, 0.7);
+border: 1px solid #D3D3D3;
+box-sizing: border-box;
+}
+
+.button-stuff{display: flex;
+justify-content: center;
+width: 100%;
+padding-top: 9%;}
+
+.header-stuff {
+  display: flex;
+  justify-content: center;
+  width: 100%;}
+
+.second-header {display: flex;}
+
+h2 {font-family: 'Rhozha one', serif;
+font-size: 2em;}
+
+input, textarea {border: 1px solid #696969;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1.15rem 1rem;
+    display: inline-block;
+}
+
+input:focus, textarea:focus {
+  outline: #80BFB4;
+  border: 1px solid #80BFB4;
+}
+
+form {Display: flex;
+padding-top: 3%;
+flex-direction: column;
+margin: 0 auto;
+width: 50%;
+font-size: 2em;}
